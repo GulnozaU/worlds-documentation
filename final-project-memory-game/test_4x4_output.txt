@@ -1,0 +1,114 @@
+Student Name - May 11, 2026
+
+Final Project - Memory Matching Game
+Match all word pairs on the text based board.
+Enter row and column numbers to choose squares.
+
+Select Theme
+1. Animals
+2. Space
+3. Sports
+Enter ( 1, 2 or 3) : 
+Select Size of Play
+A. 4 x 4 grid (Small)
+B. 6 x 6 grid (Medium)
+C. 8 x 8 grid (Large)
+Enter ( S, M, L) : 
+Select Time word pair remain on screen
+A. 2 seconds (Fast)
+B. 4 seconds (Moderate)
+C. 6 seconds (Slow)
+Enter ( F, M, S ) : 
+Run automatic demo/test mode? (Y/N): 
+Automatic demo/test mode started.
+This mode shows a successful execution for test-case screen prints.
+
+                  Col 1           Col 2           Col 3           Col 4
+Row  1         Animals         Animals         Animals         Animals
+Row  2         Animals         Animals         Animals         Animals
+Row  3         Animals         Animals         Animals         Animals
+Row  4         Animals         Animals         Animals         Animals
+
+Demo turn 1: select Row 1, Col 1 and Row 4, Col 4
+
+                  Col 1           Col 2           Col 3           Col 4
+Row  1          shrimp         Animals         Animals         Animals
+Row  2         Animals         Animals         Animals         Animals
+Row  3         Animals         Animals         Animals         Animals
+Row  4         Animals         Animals         Animals          shrimp
+
+Match found: shrimp
+Matched pairs: 1 of 8
+Demo turn 2: select Row 1, Col 2 and Row 1, Col 4
+
+                  Col 1           Col 2           Col 3           Col 4
+Row  1          shrimp           sheep         Animals           sheep
+Row  2         Animals         Animals         Animals         Animals
+Row  3         Animals         Animals         Animals         Animals
+Row  4         Animals         Animals         Animals          shrimp
+
+Match found: sheep
+Matched pairs: 2 of 8
+Demo turn 3: select Row 1, Col 3 and Row 3, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4
+Row  1          shrimp           sheep          salmon           sheep
+Row  2         Animals         Animals         Animals         Animals
+Row  3         Animals         Animals          salmon         Animals
+Row  4         Animals         Animals         Animals          shrimp
+
+Match found: salmon
+Matched pairs: 3 of 8
+Demo turn 4: select Row 2, Col 1 and Row 4, Col 1
+
+                  Col 1           Col 2           Col 3           Col 4
+Row  1          shrimp           sheep          salmon           sheep
+Row  2           otter         Animals         Animals         Animals
+Row  3         Animals         Animals          salmon         Animals
+Row  4           otter         Animals         Animals          shrimp
+
+Match found: otter
+Matched pairs: 4 of 8
+Demo turn 5: select Row 2, Col 2 and Row 3, Col 2
+
+                  Col 1           Col 2           Col 3           Col 4
+Row  1          shrimp           sheep          salmon           sheep
+Row  2           otter             fox         Animals         Animals
+Row  3         Animals             fox          salmon         Animals
+Row  4           otter         Animals         Animals          shrimp
+
+Match found: fox
+Matched pairs: 5 of 8
+Demo turn 6: select Row 2, Col 3 and Row 3, Col 1
+
+                  Col 1           Col 2           Col 3           Col 4
+Row  1          shrimp           sheep          salmon           sheep
+Row  2           otter             fox           whale         Animals
+Row  3           whale             fox          salmon         Animals
+Row  4           otter         Animals         Animals          shrimp
+
+Match found: whale
+Matched pairs: 6 of 8
+Demo turn 7: select Row 2, Col 4 and Row 4, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4
+Row  1          shrimp           sheep          salmon           sheep
+Row  2           otter             fox           whale           trout
+Row  3           whale             fox          salmon         Animals
+Row  4           otter         Animals           trout          shrimp
+
+Match found: trout
+Matched pairs: 7 of 8
+Demo turn 8: select Row 3, Col 4 and Row 4, Col 2
+
+                  Col 1           Col 2           Col 3           Col 4
+Row  1          shrimp           sheep          salmon           sheep
+Row  2           otter             fox           whale           trout
+Row  3           whale             fox          salmon           goose
+Row  4           otter           goose           trout          shrimp
+
+Match found: goose
+Matched pairs: 8 of 8
+Congratulations! You won the Memory Matching Game.
+Total turns: 8
+Timer: 0 seconds
