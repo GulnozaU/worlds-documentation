@@ -1,0 +1,252 @@
+Student Name - May 11, 2026
+
+Final Project - Memory Matching Game
+Match all word pairs on the text based board.
+Enter row and column numbers to choose squares.
+
+Select Theme
+1. Animals
+2. Space
+3. Sports
+Enter ( 1, 2 or 3) : 
+Select Size of Play
+A. 4 x 4 grid (Small)
+B. 6 x 6 grid (Medium)
+C. 8 x 8 grid (Large)
+Enter ( S, M, L) : 
+Select Time word pair remain on screen
+A. 2 seconds (Fast)
+B. 4 seconds (Moderate)
+C. 6 seconds (Slow)
+Enter ( F, M, S ) : 
+Run automatic demo/test mode? (Y/N): 
+Automatic demo/test mode started.
+This mode shows a successful execution for test-case screen prints.
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           Space           Space           Space           Space           Space           Space
+Row  2           Space           Space           Space           Space           Space           Space
+Row  3           Space           Space           Space           Space           Space           Space
+Row  4           Space           Space           Space           Space           Space           Space
+Row  5           Space           Space           Space           Space           Space           Space
+Row  6           Space           Space           Space           Space           Space           Space
+
+Demo turn 1: select Row 1, Col 1 and Row 5, Col 1
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto           Space           Space           Space           Space           Space
+Row  2           Space           Space           Space           Space           Space           Space
+Row  3           Space           Space           Space           Space           Space           Space
+Row  4           Space           Space           Space           Space           Space           Space
+Row  5           pluto           Space           Space           Space           Space           Space
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: pluto
+Matched pairs: 1 of 18
+Demo turn 2: select Row 1, Col 2 and Row 3, Col 5
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           Space           Space           Space           Space
+Row  2           Space           Space           Space           Space           Space           Space
+Row  3           Space           Space           Space           Space            star           Space
+Row  4           Space           Space           Space           Space           Space           Space
+Row  5           pluto           Space           Space           Space           Space           Space
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: star
+Matched pairs: 2 of 18
+Demo turn 3: select Row 1, Col 3 and Row 4, Col 6
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           Space           Space           Space
+Row  2           Space           Space           Space           Space           Space           Space
+Row  3           Space           Space           Space           Space            star           Space
+Row  4           Space           Space           Space           Space           Space           orbit
+Row  5           pluto           Space           Space           Space           Space           Space
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: orbit
+Matched pairs: 3 of 18
+Demo turn 4: select Row 1, Col 4 and Row 5, Col 6
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           Space           Space
+Row  2           Space           Space           Space           Space           Space           Space
+Row  3           Space           Space           Space           Space            star           Space
+Row  4           Space           Space           Space           Space           Space           orbit
+Row  5           pluto           Space           Space           Space           Space           comet
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: comet
+Matched pairs: 4 of 18
+Demo turn 5: select Row 1, Col 5 and Row 5, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar           Space
+Row  2           Space           Space           Space           Space           Space           Space
+Row  3           Space           Space           Space           Space            star           Space
+Row  4           Space           Space           Space           Space           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: solar
+Matched pairs: 5 of 18
+Demo turn 6: select Row 1, Col 6 and Row 3, Col 4
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2           Space           Space           Space           Space           Space           Space
+Row  3           Space           Space           Space          saturn            star           Space
+Row  4           Space           Space           Space           Space           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: saturn
+Matched pairs: 6 of 18
+Demo turn 7: select Row 2, Col 1 and Row 2, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module           Space          module           Space           Space           Space
+Row  3           Space           Space           Space          saturn            star           Space
+Row  4           Space           Space           Space           Space           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: module
+Matched pairs: 7 of 18
+Demo turn 8: select Row 2, Col 2 and Row 3, Col 6
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module           Space           Space           Space
+Row  3           Space           Space           Space          saturn            star            moon
+Row  4           Space           Space           Space           Space           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: moon
+Matched pairs: 8 of 18
+Demo turn 9: select Row 2, Col 4 and Row 4, Col 4
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar           Space           Space
+Row  3           Space           Space           Space          saturn            star            moon
+Row  4           Space           Space           Space          pulsar           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: pulsar
+Matched pairs: 9 of 18
+Demo turn 10: select Row 2, Col 5 and Row 4, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar          cosmos           Space
+Row  3           Space           Space           Space          saturn            star            moon
+Row  4           Space           Space          cosmos          pulsar           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space           Space           Space           Space           Space
+
+Match found: cosmos
+Matched pairs: 10 of 18
+Demo turn 11: select Row 2, Col 6 and Row 6, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar          cosmos       spacesuit
+Row  3           Space           Space           Space          saturn            star            moon
+Row  4           Space           Space          cosmos          pulsar           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space       spacesuit           Space           Space           Space
+
+Match found: spacesuit
+Matched pairs: 11 of 18
+Demo turn 12: select Row 3, Col 1 and Row 6, Col 6
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar          cosmos       spacesuit
+Row  3           lunar           Space           Space          saturn            star            moon
+Row  4           Space           Space          cosmos          pulsar           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space       spacesuit           Space           Space           lunar
+
+Match found: lunar
+Matched pairs: 12 of 18
+Demo turn 13: select Row 3, Col 2 and Row 4, Col 1
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar          cosmos       spacesuit
+Row  3           lunar          rocket           Space          saturn            star            moon
+Row  4          rocket           Space          cosmos          pulsar           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space       spacesuit           Space           Space           lunar
+
+Match found: rocket
+Matched pairs: 13 of 18
+Demo turn 14: select Row 3, Col 3 and Row 4, Col 2
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar          cosmos       spacesuit
+Row  3           lunar          rocket          uranus          saturn            star            moon
+Row  4          rocket          uranus          cosmos          pulsar           Space           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space       spacesuit           Space           Space           lunar
+
+Match found: uranus
+Matched pairs: 14 of 18
+Demo turn 15: select Row 4, Col 5 and Row 6, Col 4
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar          cosmos       spacesuit
+Row  3           lunar          rocket          uranus          saturn            star            moon
+Row  4          rocket          uranus          cosmos          pulsar       blackhole           orbit
+Row  5           pluto           Space           solar           Space           Space           comet
+Row  6           Space           Space       spacesuit       blackhole           Space           lunar
+
+Match found: blackhole
+Matched pairs: 15 of 18
+Demo turn 16: select Row 5, Col 2 and Row 6, Col 1
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar          cosmos       spacesuit
+Row  3           lunar          rocket          uranus          saturn            star            moon
+Row  4          rocket          uranus          cosmos          pulsar       blackhole           orbit
+Row  5           pluto           probe           solar           Space           Space           comet
+Row  6           probe           Space       spacesuit       blackhole           Space           lunar
+
+Match found: probe
+Matched pairs: 16 of 18
+Demo turn 17: select Row 5, Col 4 and Row 6, Col 2
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar          cosmos       spacesuit
+Row  3           lunar          rocket          uranus          saturn            star            moon
+Row  4          rocket          uranus          cosmos          pulsar       blackhole           orbit
+Row  5           pluto           probe           solar         capsule           Space           comet
+Row  6           probe         capsule       spacesuit       blackhole           Space           lunar
+
+Match found: capsule
+Matched pairs: 17 of 18
+Demo turn 18: select Row 5, Col 5 and Row 6, Col 5
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6
+Row  1           pluto            star           orbit           comet           solar          saturn
+Row  2          module            moon          module          pulsar          cosmos       spacesuit
+Row  3           lunar          rocket          uranus          saturn            star            moon
+Row  4          rocket          uranus          cosmos          pulsar       blackhole           orbit
+Row  5           pluto           probe           solar         capsule         shuttle           comet
+Row  6           probe         capsule       spacesuit       blackhole         shuttle           lunar
+
+Match found: shuttle
+Matched pairs: 18 of 18
+Congratulations! You won the Memory Matching Game.
+Total turns: 18
+Timer: 0 seconds

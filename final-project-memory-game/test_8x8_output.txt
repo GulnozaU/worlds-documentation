@@ -1,0 +1,486 @@
+Student Name - May 11, 2026
+
+Final Project - Memory Matching Game
+Match all word pairs on the text based board.
+Enter row and column numbers to choose squares.
+
+Select Theme
+1. Animals
+2. Space
+3. Sports
+Enter ( 1, 2 or 3) : 
+Select Size of Play
+A. 4 x 4 grid (Small)
+B. 6 x 6 grid (Medium)
+C. 8 x 8 grid (Large)
+Enter ( S, M, L) : 
+Select Time word pair remain on screen
+A. 2 seconds (Fast)
+B. 4 seconds (Moderate)
+C. 6 seconds (Slow)
+Enter ( F, M, S ) : 
+Run automatic demo/test mode? (Y/N): 
+Automatic demo/test mode started.
+This mode shows a successful execution for test-case screen prints.
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  2          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  4          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+
+Demo turn 1: select Row 1, Col 1 and Row 6, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  2          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  4          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          Sports          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+
+Match found: baseball
+Matched pairs: 1 of 32
+Demo turn 2: select Row 1, Col 2 and Row 6, Col 4
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing          Sports          Sports          Sports          Sports          Sports          Sports
+Row  2          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  4          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+
+Match found: racing
+Matched pairs: 2 of 32
+Demo turn 3: select Row 1, Col 3 and Row 1, Col 7
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling          Sports          Sports          Sports       wrestling          Sports
+Row  2          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  4          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+
+Match found: wrestling
+Matched pairs: 3 of 32
+Demo turn 4: select Row 1, Col 4 and Row 8, Col 7
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football          Sports          Sports       wrestling          Sports
+Row  2          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  4          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports          Sports          Sports          Sports          Sports          Sports        football          Sports
+
+Match found: football
+Matched pairs: 4 of 32
+Demo turn 5: select Row 1, Col 5 and Row 8, Col 2
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          Sports       wrestling          Sports
+Row  2          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  4          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          Sports          Sports        football          Sports
+
+Match found: tournament
+Matched pairs: 5 of 32
+Demo turn 6: select Row 1, Col 6 and Row 3, Col 7
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling          Sports
+Row  2          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          skiing          Sports
+Row  4          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          Sports          Sports        football          Sports
+
+Match found: skiing
+Matched pairs: 6 of 32
+Demo turn 7: select Row 1, Col 8 and Row 4, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          skiing          Sports
+Row  4          Sports          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          Sports          Sports        football          Sports
+
+Match found: lacrosse
+Matched pairs: 7 of 32
+Demo turn 8: select Row 2, Col 1 and Row 4, Col 1
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          Sports          Sports        football          Sports
+
+Match found: skating
+Matched pairs: 8 of 32
+Demo turn 9: select Row 2, Col 2 and Row 2, Col 7
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery          Sports          Sports          Sports          Sports         archery          Sports
+Row  3          Sports          Sports          Sports          Sports          Sports          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          Sports          Sports        football          Sports
+
+Match found: archery
+Matched pairs: 9 of 32
+Demo turn 10: select Row 2, Col 3 and Row 3, Col 1
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard          Sports          Sports          Sports         archery          Sports
+Row  3      scoreboard          Sports          Sports          Sports          Sports          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          Sports          Sports        football          Sports
+
+Match found: scoreboard
+Matched pairs: 10 of 32
+Demo turn 11: select Row 2, Col 4 and Row 3, Col 4
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal          Sports          Sports         archery          Sports
+Row  3      scoreboard          Sports          Sports           medal          Sports          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports          Sports        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          Sports          Sports        football          Sports
+
+Match found: medal
+Matched pairs: 11 of 32
+Demo turn 12: select Row 2, Col 5 and Row 6, Col 2
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          Sports         archery          Sports
+Row  3      scoreboard          Sports          Sports           medal          Sports          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          Sports          Sports        football          Sports
+
+Match found: rugby
+Matched pairs: 12 of 32
+Demo turn 13: select Row 2, Col 6 and Row 8, Col 5
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery          Sports
+Row  3      scoreboard          Sports          Sports           medal          Sports          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          discus          Sports        football          Sports
+
+Match found: discus
+Matched pairs: 13 of 32
+Demo turn 14: select Row 2, Col 8 and Row 5, Col 1
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard          Sports          Sports           medal          Sports          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5           relay          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          discus          Sports        football          Sports
+
+Match found: relay
+Matched pairs: 14 of 32
+Demo turn 15: select Row 3, Col 2 and Row 8, Col 6
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball          Sports           medal          Sports          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5           relay          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing          Sports          Sports          Sports          Sports
+Row  7          Sports          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          discus      volleyball        football          Sports
+
+Match found: volleyball
+Matched pairs: 15 of 32
+Demo turn 16: select Row 3, Col 3 and Row 7, Col 1
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          Sports          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5           relay          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing          Sports          Sports          Sports          Sports
+Row  7         surfing          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          discus      volleyball        football          Sports
+
+Match found: surfing
+Matched pairs: 16 of 32
+Demo turn 17: select Row 3, Col 5 and Row 8, Col 8
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy          Sports          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5           relay          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing          Sports          Sports          Sports          Sports
+Row  7         surfing          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports          Sports          discus      volleyball        football          trophy
+
+Match found: trophy
+Matched pairs: 17 of 32
+Demo turn 18: select Row 3, Col 6 and Row 8, Col 4
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing          Sports
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5           relay          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing          Sports          Sports          Sports          Sports
+Row  7         surfing          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: pickleball
+Matched pairs: 18 of 32
+Demo turn 19: select Row 3, Col 8 and Row 6, Col 5
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating          Sports        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5           relay          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports          Sports
+Row  7         surfing          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: softball
+Matched pairs: 19 of 32
+Demo turn 20: select Row 4, Col 2 and Row 7, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse          Sports          Sports          Sports          Sports          Sports
+Row  5           relay          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports          Sports
+Row  7         surfing          Sports        kickball          Sports          Sports          Sports          Sports          Sports
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: kickball
+Matched pairs: 20 of 32
+Demo turn 21: select Row 4, Col 4 and Row 7, Col 8
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing          Sports          Sports          Sports          Sports
+Row  5           relay          Sports          Sports          Sports          Sports          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports          Sports
+Row  7         surfing          Sports        kickball          Sports          Sports          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: fencing
+Matched pairs: 21 of 32
+Demo turn 22: select Row 4, Col 5 and Row 5, Col 5
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin          Sports          Sports          Sports
+Row  5           relay          Sports          Sports          Sports         javelin          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports          Sports
+Row  7         surfing          Sports        kickball          Sports          Sports          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: javelin
+Matched pairs: 22 of 32
+Demo turn 23: select Row 4, Col 6 and Row 7, Col 5
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball          Sports          Sports
+Row  5           relay          Sports          Sports          Sports         javelin          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports          Sports
+Row  7         surfing          Sports        kickball          Sports        handball          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: handball
+Matched pairs: 23 of 32
+Demo turn 24: select Row 4, Col 7 and Row 6, Col 8
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball      basketball          Sports
+Row  5           relay          Sports          Sports          Sports         javelin          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports      basketball
+Row  7         surfing          Sports        kickball          Sports        handball          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: basketball
+Matched pairs: 24 of 32
+Demo turn 25: select Row 4, Col 8 and Row 5, Col 2
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball      basketball         sailing
+Row  5           relay         sailing          Sports          Sports         javelin          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports      basketball
+Row  7         surfing          Sports        kickball          Sports        handball          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: sailing
+Matched pairs: 25 of 32
+Demo turn 26: select Row 5, Col 3 and Row 7, Col 2
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball      basketball         sailing
+Row  5           relay         sailing       dodgeball          Sports         javelin          Sports          Sports          Sports
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports      basketball
+Row  7         surfing       dodgeball        kickball          Sports        handball          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: dodgeball
+Matched pairs: 26 of 32
+Demo turn 27: select Row 5, Col 4 and Row 5, Col 7
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball      basketball         sailing
+Row  5           relay         sailing       dodgeball       badminton         javelin          Sports       badminton          Sports
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports      basketball
+Row  7         surfing       dodgeball        kickball          Sports        handball          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: badminton
+Matched pairs: 27 of 32
+Demo turn 28: select Row 5, Col 6 and Row 5, Col 8
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball      basketball         sailing
+Row  5           relay         sailing       dodgeball       badminton         javelin         bowling       badminton         bowling
+Row  6          Sports           rugby        baseball          racing        softball          Sports          Sports      basketball
+Row  7         surfing       dodgeball        kickball          Sports        handball          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: bowling
+Matched pairs: 28 of 32
+Demo turn 29: select Row 6, Col 1 and Row 7, Col 4
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball      basketball         sailing
+Row  5           relay         sailing       dodgeball       badminton         javelin         bowling       badminton         bowling
+Row  6         stadium           rugby        baseball          racing        softball          Sports          Sports      basketball
+Row  7         surfing       dodgeball        kickball         stadium        handball          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: stadium
+Matched pairs: 29 of 32
+Demo turn 30: select Row 6, Col 6 and Row 6, Col 7
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball      basketball         sailing
+Row  5           relay         sailing       dodgeball       badminton         javelin         bowling       badminton         bowling
+Row  6         stadium           rugby        baseball          racing        softball            judo            judo      basketball
+Row  7         surfing       dodgeball        kickball         stadium        handball          Sports          Sports         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: judo
+Matched pairs: 30 of 32
+Demo turn 31: select Row 7, Col 6 and Row 7, Col 7
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball      basketball         sailing
+Row  5           relay         sailing       dodgeball       badminton         javelin         bowling       badminton         bowling
+Row  6         stadium           rugby        baseball          racing        softball            judo            judo      basketball
+Row  7         surfing       dodgeball        kickball         stadium        handball          soccer          soccer         fencing
+Row  8          Sports      tournament          Sports      pickleball          discus      volleyball        football          trophy
+
+Match found: soccer
+Matched pairs: 31 of 32
+Demo turn 32: select Row 8, Col 1 and Row 8, Col 3
+
+                  Col 1           Col 2           Col 3           Col 4           Col 5           Col 6           Col 7           Col 8
+Row  1        baseball          racing       wrestling        football      tournament          skiing       wrestling        lacrosse
+Row  2         skating         archery      scoreboard           medal           rugby          discus         archery           relay
+Row  3      scoreboard      volleyball         surfing           medal          trophy      pickleball          skiing        softball
+Row  4         skating        kickball        lacrosse         fencing         javelin        handball      basketball         sailing
+Row  5           relay         sailing       dodgeball       badminton         javelin         bowling       badminton         bowling
+Row  6         stadium           rugby        baseball          racing        softball            judo            judo      basketball
+Row  7         surfing       dodgeball        kickball         stadium        handball          soccer          soccer         fencing
+Row  8          hurdle      tournament          hurdle      pickleball          discus      volleyball        football          trophy
+
+Match found: hurdle
+Matched pairs: 32 of 32
+Congratulations! You won the Memory Matching Game.
+Total turns: 32
+Timer: 0 seconds
